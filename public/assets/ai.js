@@ -6,7 +6,7 @@ const messagesContainer = document.querySelector('.messages');
 
 const uValue = 'user';
 const aiValue = 'assistant';
-const chatHistoryLimit = 6;
+const chatHistoryLimit = 20;
 
 let chatHistory = [];
 
