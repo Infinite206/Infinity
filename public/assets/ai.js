@@ -77,7 +77,7 @@ async function sendMsg() {
 
         if (chatHistory.length > chatHistoryLimit) chatHistory.shift();
     } catch {
-        loadingMsg.innerHTML = 'Failed to reach Shadow Assistant. Try again.';
+        loadingMsg.innerHTML = 'Failed to reach InfiniteAI. Try again.';
         loadingMsg.classList.remove('loading');
         loadingMsg.classList.add('show');
     }
@@ -107,4 +107,4 @@ function addMsg(content, role, isLoading = false) {
     return msgElement;
 }
 
-addMsg("**Hello, how may I help you?**", aiValue);
+addMsg("**Yo, What do you want?**", aiValue);
